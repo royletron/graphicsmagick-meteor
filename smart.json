@@ -1,0 +1,8 @@
+{
+    "name": "GraphicsMagick",
+    "description": "GraphicsMagick for Meteor",
+    "homepage": "https://github.com/royletron/graphicsmagick-meteor.git",
+    "author": "Darren Royle",
+    "version": "0.0.1",
+    "git": "https://github.com/royletron/graphicsmagick-meteor.git"
+}
