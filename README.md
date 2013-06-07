@@ -23,7 +23,7 @@ Then use GraphicsMagick as you would the NodeJS version.
 gm(__dirname+'/public/nonrefresh~/img.jpg')
     .resize(240, 240)
     .noProfile()
-	.write('__dirname+'/public/nonrefresh~/img_thumb.jpg', function (err) {
+	.write(__dirname+'/public/nonrefresh~/img_thumb.jpg', function (err) {
   		if (!err) console.log('done');
 	});
 ```
