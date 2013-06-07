@@ -20,10 +20,10 @@ Then use GraphicsMagick as you would the NodeJS version.
 
 ```js
 // resize and remove EXIF profile data
-gm('/path/to/my/img.jpg')
+gm(__dirname+'/public/nonrefresh~/img.jpg')
     .resize(240, 240)
     .noProfile()
-	.write('/path/to/resize.png', function (err) {
+	.write('__dirname+'/public/nonrefresh~/img_thumb.jpg'', function (err) {
   		if (!err) console.log('done');
 	});
 ```
