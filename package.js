@@ -3,7 +3,8 @@ Package.describe({
 });
 
 Npm.depends({
-    "gm": "1.9.1"
+    "gm": "1.9.1",
+    "path": "0.4.9"
 });
 
 Package.on_use(function (api) {
