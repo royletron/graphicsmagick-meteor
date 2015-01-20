@@ -9,4 +9,8 @@ Npm.depends({
 
 Package.on_use(function (api) {
   api.add_files("gm.js", ["server"]);
+  
+  if(api.export) {
+    api.export(["path", "gm"], "server");
+  }
 });
